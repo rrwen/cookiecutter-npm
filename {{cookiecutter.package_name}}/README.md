@@ -10,7 +10,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/{{cookiecutter.github_short}}/badge.svg?branch=master)](https://coveralls.io/github/{{cookiecutter.github_short}}?branch=master)
 [![npm](https://img.shields.io/npm/dt/{{cookiecutter.package_name}}.svg)](https://www.npmjs.com/package/{{cookiecutter.package_name}})
 [![GitHub license](https://img.shields.io/github/license/{{cookiecutter.github_short}}.svg)](https://github.com/{{cookiecutter.github_short}}/blob/master/LICENSE)
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/{{cookiecutter.github_short}}.svg?style=social)](https://twitter.com/intent/tweet?text={{cookiecutter.package_description.replace(' ','%20')}}:%20https%3A%2F%2Fgithub.com%2F{{cookiecutter.github.split('/')[0]}}%2F{{cookiecutter.package_name}}%20%23nodejs%20%23npm)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/{{cookiecutter.github_short}}.svg?style=social)](https://twitter.com/intent/tweet?text={{cookiecutter.package_description.replace(' ','%20')}}:%20https%3A%2F%2Fgithub.com%2F{{cookiecutter.github_user}}%2F{{cookiecutter.package_name}}%20%23nodejs%20%23npm)
 
 ## Install
 
