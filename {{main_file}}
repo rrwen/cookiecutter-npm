@@ -1,0 +1,6 @@
+// {{author}}
+// {{email}}
+
+module.exports = options => {
+	options = options || {};
+};
