@@ -1,0 +1,30 @@
+{
+  "name": "{{cookiecutter.package_name}}",
+  "version": "{{cookiecutter.package_version}}",
+  "description": "{{cookiecutter.package_description}}",
+  "main": "{{cookiecutter.package_main}}",
+  "scripts": {
+	"coverage": "istanbul cover node_modules/tape/bin/tape tests/test.js && cat ./coverage/lcov.info | coveralls",
+	"istanbul": "istanbul cover node_modules/tape/bin/tape tests/test.js",
+	"test": "node ./tests/test.js",
+  },
+  "directories": {
+	"test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+{{cookiecutter.github_url}}.git"
+  },
+  "author": "{{cookiecutter.author}}",
+  "license": "{{cookiecutter.package_license}}",
+  "bugs": {
+    "url": "{{cookiecutter.github_url}}/issues"
+  },
+  "homepage": "{{cookiecutter.github_url}}#readme",
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "istanbul": "^0.4.5",
+    "moment": "^2.19.1",
+    "tape": "^4.8.0"
+  }
+}

@@ -3,5 +3,10 @@
   "email": "rrwen.dev@gmail.com",
   "package_name": "cookiercutter-npm",
   "package_description": "",
-  "package_version": "0.1.0"
+  "package_version": "0.0.0",
+  "package_main": "index.js",
+  "package_license": "MIT",
+   "github_user": "rrwen",
+   "github_url": "{{'https://github.com/' + cookiecutter.github_user + '/' + cookiecutter.package_name}}",
+   "github_short": "{{cookiecutter.github_user + '/' + cookiecutter.package_name}}"
 }
