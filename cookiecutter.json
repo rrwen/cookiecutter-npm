@@ -1,10 +1,10 @@
 {
   "author": "Richard Wen",
   "email": "rrwen.dev@gmail.com",
-  "package_name": "package_name",
-  "package_description": "package_description",
+  "template_name": "template_name",
+  "template_description": "package_description",
   "package_version": "0.0.0",
    "github_user": "rrwen",
-   "github_url": "{{'https://github.com/' + cookiecutter.github_user + '/' + cookiecutter.package_name}}",
-   "github_short": "{{cookiecutter.github_user + '/' + cookiecutter.package_name}}"
+   "github_url": "{{'https://github.com/' + cookiecutter.github_user + '/' + cookiecutter.template_name}}",
+   "github_short": "{{cookiecutter.github_user + '/' + cookiecutter.template_name}}"
 }

@@ -1,7 +1,7 @@
 {
-  "name": "{{cookiecutter.package_name}}",
+  "name": "{{cookiecutter.template_name}}",
   "version": "{{cookiecutter.package_version}}",
-  "description": "{{cookiecutter.package_description}}",
+  "description": "{{cookiecutter.template_description}}",
   "main": "index.js",
   "scripts": {
 	"coverage": "istanbul cover node_modules/tape/bin/tape tests/test.js && cat ./coverage/lcov.info | coveralls",
