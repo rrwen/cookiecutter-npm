@@ -3,7 +3,7 @@
 Richard Wen  
 rrwen.dev@gmail.com  
 
-Personal template for npm packages using cookiecutter.
+Personal template for Node.js npm packages using cookiecutter in Python.
 
 [![Build Status](https://travis-ci.org/rrwen/cookiecutter-npm.svg?branch=master)](https://travis-ci.org/rrwen/cookiecutter-npm)
 [![GitHub license](https://img.shields.io/github/license/rrwen/cookiecutter-npm.svg)](https://github.com/rrwen/cookiecutter-npm/blob/master/LICENSE)
