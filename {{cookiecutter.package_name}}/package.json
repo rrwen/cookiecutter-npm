@@ -2,7 +2,7 @@
   "name": "{{cookiecutter.package_name}}",
   "version": "{{cookiecutter.package_version}}",
   "description": "{{cookiecutter.package_description}}",
-  "main": "{{cookiecutter.package_main}}",
+  "main": "index.js",
   "scripts": {
 	"coverage": "istanbul cover node_modules/tape/bin/tape tests/test.js && cat ./coverage/lcov.info | coveralls",
 	"istanbul": "istanbul cover node_modules/tape/bin/tape tests/test.js",
@@ -16,7 +16,7 @@
     "url": "git+{{cookiecutter.github_url}}.git"
   },
   "author": "{{cookiecutter.author}}",
-  "license": "{{cookiecutter.package_license}}",
+  "license": "MIT",
   "bugs": {
     "url": "{{cookiecutter.github_url}}/issues"
   },

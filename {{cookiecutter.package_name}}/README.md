@@ -31,6 +31,54 @@ An example usage of {{cookiecutter.package_name}}:
 example
 ```
 
+## Contributions
+
+### Report Contributions
+
+Reports for issues and suggestions can be made using the [issue submission]({{cookiecutter.github_url}}/issues) interface.
+
+When possible, ensure that your submission is:
+
+* **Descriptive**: has informative title, explanations, and screenshots
+* **Specific**: has details of environment (such as operating system and hardware) and software used
+* **Reproducible**: has steps, code, and examples to reproduce the issue
+
+### Code Contributions
+
+Code contributions are submitted via [pull requests](https://help.github.com/articles/about-pull-requests/):
+
+1. Ensure that you pass the [Tests](#tests)
+2. Create a new [pull request]({{cookiecutter.github_url}}/pulls)
+3. Provide an explanation of the changes
+
+A template of the code contribution explanation is provided below:
+
+```
+## Purpose
+
+The purpose can mention goals that include fixes to bugs, addition of features, and other improvements, etc.
+
+## Description
+
+The description is a short summary of the changes made such as improved speeds, implementation
+
+## Changes
+
+The changes are a list of general edits made to the files and their respective components.
+* `file_path1`:
+    * `function_module_etc`: changed loop to map
+    * `function_module_etc`: changed variable value
+* `file_path2`:
+    * `function_module_etc`: changed loop to map
+    * `function_module_etc`: changed variable value
+
+## Notes
+
+The notes provide any additional text that do not fit into the above sections.
+```
+
+For more information, see [Developer Install](Developer Install) and [Implementation](Implementation).
+
 ## Developer Notes
 
 ### Developer Install
@@ -96,11 +144,11 @@ npm publish
 A description of the overall implementation of {{cookiecutter.package_name}}.
 
 ```
-component   <-- detail
-        |
-component   <-- detail
-        |
-component   <-- detail
-        |
-component   <-- detail
+   component   <-- detail
+          |
+   component   <-- detail
+          |
+   component   <-- detail
+          |
+   component   <-- detail
 ```
