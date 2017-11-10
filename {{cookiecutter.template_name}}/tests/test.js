@@ -3,7 +3,7 @@
 
 var fs = require('fs');
 var moment = require('moment');
-var {{cookiecutter.template_name.replace('-', '')}} = require('../index.js');
+var {{cookiecutter.template_name.replace('-', '').replace(' ', '')}} = require('../index.js');
 var test = require('tape');
 
 // (package_info) Get package metadata
