@@ -144,11 +144,11 @@ npm publish
 A description of the overall implementation of {{cookiecutter.template_name}}.
 
 ```
-   component   <-- detail
-          |
-   component   <-- detail
-          |
-   component   <-- detail
-          |
-   component   <-- detail
+component   <-- detail
+    |
+component   <-- detail
+    |
+component   <-- detail
+    |
+component   <-- detail
 ```
