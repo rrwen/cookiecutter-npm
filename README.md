@@ -74,6 +74,14 @@ This template uses [cookiecutter](https://pypi.python.org/pypi/cookiecutter) to 
 * The main file is [cookiecutter.json](https://github.com/rrwen/cookiecutter-npm/blob/master/cookiecutter.json) which defines the inputs for the command line interface
 * The inputs then replace any values surrounded with `{{}}` inside the folder [{{cookiecutter.package_name}}](https://github.com/rrwen/cookiecutter-npm/tree/master/%7B%7Bcookiecutter.package_name%7D%7D)
 
+```
+        cookiecutter             <-- template tool
+             |
+      cookiecutter.json          <-- template inputs
+             |
+{{cookiecutter.package_name}}    <-- generated template
+```
+
 The following files will be created inside a folder with the same name as the `package_name` input:
 
 * **tests/test.js**: a file that uses [tape]() to test the `index.js` module and logs results into `tests/log/` for the package version specified in `package.json`
