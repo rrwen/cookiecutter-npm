@@ -28,7 +28,7 @@ For the latest developer version, see [Developer Install](#developer-install).
 An example usage of {{cookiecutter.template_name}}:
 
 ```
-example
+var {{cookiecutter.template_name.replace('-', '').replace(' ', '')}} = require('{{cookiecutter.template_name}}');
 ```
 
 ## Contributions
