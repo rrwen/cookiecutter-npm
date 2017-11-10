@@ -108,7 +108,6 @@ The following files will be created inside a folder with the same name as the `p
 * **.npmignore**: a file to specify ignoring `tests/logs/*`
 * **.travis.yml**: a [.travis.yml](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/) file for automatic builds and tests
 * **LICENSE**: MIT [license file](https://help.github.com/articles/licensing-a-repository/) automatically created from github
-* **README.md**: a readme [Mardown](https://daringfireball.net/projects/markdown/) file with header, install, usage, and developer notes sections
+* **README.md**: a readme [Markdown](https://daringfireball.net/projects/markdown/) file with header, install, usage, and developer notes sections
 * **package.json**: the [npm package.json](https://docs.npmjs.com/files/package.json) specifications with [tape](https://www.npmjs.com/package/tape), [moment](https://www.npmjs.com/package/moment), [istanbul](https://www.npmjs.com/package/istanbul), and [coveralls](https://www.npmjs.com/package/coveralls) developer dependencies
 * **index.js**: the main entry file for the npm package with an exported function consuming `options` as the main module
-
