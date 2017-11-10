@@ -2,7 +2,7 @@
   "author": "Richard Wen",
   "email": "rrwen.dev@gmail.com",
   "template_name": "template_name",
-  "template_description": "package_description",
+  "template_description": "template_description",
   "package_version": "0.0.0",
    "github_user": "rrwen",
    "github_url": "{{'https://github.com/' + cookiecutter.github_user + '/' + cookiecutter.template_name}}",
