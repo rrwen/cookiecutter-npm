@@ -46,7 +46,7 @@ npm update --dev
 git init
 git add .
 git commit -a -m "Initial commit"
-git remote add origin https://github.com:<github_user>/<template_name>.git
+git remote add origin https://github.com/<github_user>/<template_name>.git
 git pull origin master --allow-unrelated-histories
 git push -u origin master
 ```
