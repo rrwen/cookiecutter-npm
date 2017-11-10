@@ -5,6 +5,9 @@ rrwen.dev@gmail.com
 
 Personal template for npm packages using cookiecutter.
 
+[![Build Status](https://travis-ci.org/rrwen/cookiecutter-npm.svg?branch=master)](https://travis-ci.org/rrwen/cookiecutter-npm)
+[![GitHub license](https://img.shields.io/github/license/rrwen/cookiecutter-npm.svg)](https://github.com/rrwen/cookiecutter-npm/blob/master/LICENSE)
+
 ## Install
 
 1. Install [Python](https://www.python.org/downloads/)
@@ -29,7 +32,23 @@ npm update --dev
 
 ## Developer Notes
 
-### Useful Commands
+### Create Github Repository
+
+1. Ensure [git](https://git-scm.com/) is installed
+2. Change directory to the generated folder `cd <package_name>`
+3. Initialize the repository
+4. Add the generated files to commit
+5. Create a [Github repository](https://help.github.com/articles/create-a-repo/) with the same name as `package_name`
+6. Push the commit from `4.` to your created Github repository
+
+```
+git init
+git add .
+git remote add origin git@github.com:<github_user>/<package_name>
+git push -u origin master
+```
+
+### Useful npm Commands
 
 **Edit** the basic keys in `package.json`:
 

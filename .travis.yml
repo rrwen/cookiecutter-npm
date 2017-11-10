@@ -1,0 +1,12 @@
+language: python
+python:
+  - "2.7"
+  - "3.6"
+cache: pip
+install:
+  - pip install git+https://github.com/rrwen/search_google
+  - pip install cookiecutter
+script:
+  - cookiecutter --no-input gh:rrwen/cookiecutter-npm
+  - cd package_name
+  - npm update --dev
