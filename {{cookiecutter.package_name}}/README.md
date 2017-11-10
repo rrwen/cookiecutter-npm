@@ -77,7 +77,7 @@ The changes are a list of general edits made to the files and their respective c
 The notes provide any additional text that do not fit into the above sections.
 ```
 
-For more information, see [Developer Install](Developer Install) and [Implementation](Implementation).
+For more information, see [Developer Install](#developer-install) and [Implementation](#implementation).
 
 ## Developer Notes
 
