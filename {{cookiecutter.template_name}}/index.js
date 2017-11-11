@@ -1,6 +1,6 @@
 // {{cookiecutter.author}}
 // {{cookiecutter.email}}
 
-module.exports = options => {
+module.exports = function(options) {
 	options = options || {};
 };
