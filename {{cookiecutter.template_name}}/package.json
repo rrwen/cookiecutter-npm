@@ -6,7 +6,7 @@
   "scripts": {
 	"coverage": "istanbul cover node_modules/tape/bin/tape tests/test.js && cat ./coverage/lcov.info | coveralls",
 	"istanbul": "istanbul cover node_modules/tape/bin/tape tests/test.js",
-	"test": "node ./tests/test.js",
+	"test": "node ./tests/test.js"
   },
   "directories": {
 	"test": "tests"
