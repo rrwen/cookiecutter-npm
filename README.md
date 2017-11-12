@@ -30,6 +30,8 @@ cd <template_name>
 npm update --dev
 ```
 
+See (Implementation)[#implementation] for more details.
+
 ## Developer Notes
 
 ### Create Github Repository
@@ -108,11 +110,11 @@ The following files will be created inside a folder with the same name as the `t
 
 File | Description
 --- | ---
-**tests/test.js** | a file that uses [tape]() to test the `index.js` module and logs results into `tests/log/` for the package version specified in `package.json` 
-**.gitignore** | a Node [.gitignore](https://git-scm.com/docs/gitignore) automatically generated from github
-**.npmignore** | a file to specify ignoring `tests/logs/*`
-**.travis.yml** | a [.travis.yml](https://docs.travis-ci.com/user/customizing-the-build/) file for automatic builds and tests
+**tests/test.js** | A file that uses [tape]() to test the `index.js` module and logs results into `tests/log/` for the package version specified in `package.json` 
+**.gitignore** | A Node [.gitignore](https://git-scm.com/docs/gitignore) automatically generated from github
+**.npmignore** | A file to specify ignoring `tests/logs/*`
+**.travis.yml** | A [.travis.yml](https://docs.travis-ci.com/user/customizing-the-build/) file for automatic builds and tests
 **LICENSE** | MIT [license file](https://help.github.com/articles/licensing-a-repository/) automatically created from github
-**README.md** | a readme [Markdown](https://daringfireball.net/projects/markdown/) file with header, install, usage, and developer notes sections
-**package.json** | the [npm package.json](https://docs.npmjs.com/files/package.json) specifications with [tape](https://www.npmjs.com/package/tape), [moment](https://www.npmjs.com/package/moment), [istanbul](https://www.npmjs.com/package/istanbul), and [coveralls](https://www.npmjs.com/package/coveralls) developer dependencies
-**index.js** | the main entry file for the npm package with an exported function consuming an `options` object
+**README.md** | A readme [Markdown](https://daringfireball.net/projects/markdown/) file with header, install, usage, and developer notes sections
+**package.json** | The [npm package.json](https://docs.npmjs.com/files/package.json) specifications with [tape](https://www.npmjs.com/package/tape), [moment](https://www.npmjs.com/package/moment), [istanbul](https://www.npmjs.com/package/istanbul), and [coveralls](https://www.npmjs.com/package/coveralls) developer dependencies
+**index.js** | The main entry file for the npm package with an exported function consuming an `options` object
