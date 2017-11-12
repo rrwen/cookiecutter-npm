@@ -30,7 +30,7 @@ cd <template_name>
 npm update --dev
 ```
 
-See (Implementation)[#implementation] for more details.
+See [Implementation](#implementation) for more details.
 
 ## Developer Notes
 
