@@ -60,7 +60,7 @@ The purpose can mention goals that include fixes to bugs, addition of features, 
 
 ## Description
 
-The description is a short summary of the changes made such as improved speeds, implementation
+The description is a short summary of the changes made such as improved speeds or features, and implementation details.
 
 ## Changes
 
