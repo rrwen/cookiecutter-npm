@@ -1,12 +1,13 @@
 // {{cookiecutter.author}}
 // {{cookiecutter.email}}
 
+// (packages) Package dependencies
 var fs = require('fs');
 var moment = require('moment');
 var {{cookiecutter.template_name.replace('-', '').replace(' ', '')}} = require('../index.js');
 var test = require('tape');
 
-// (package_info) Get package metadata
+// (test_info) Get package metadata
 var json = JSON.parse(fs.readFileSync('package.json', 'utf8'));
 var testedPackages = [];
 for (var k in json.dependencies) {
@@ -17,7 +18,7 @@ for (var k in json.devDependencies) {
   devPackages.push(k + ' (' + json.devDependencies[k] + ')');
 }
 
-// (test_file) Pipe tests to file and output
+// (test_log) Pipe tests to file and output
 if (!fs.existsSync('./tests/log')){
     fs.mkdirSync('./tests/log');
 }
@@ -25,7 +26,7 @@ var testFile = './tests/log/test_' + json.version.split('.').join('_') + '.txt';
 test.createStream().pipe(fs.createWriteStream(testFile));
 test.createStream().pipe(process.stdout);
 
-// (test_run) Run tests
+// (test) Run tests
 test('Tests for ' + json.name + ' (' + json.version + ')', t => {
     t.comment('Node.js (' + process.version + ')');
     t.comment('Description: ' + json.description);
