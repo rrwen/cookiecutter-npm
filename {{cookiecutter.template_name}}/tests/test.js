@@ -48,7 +48,7 @@ test('Tests for ' + json.name + ' (' + json.version + ')', t => {
 	t.deepEquals(actual, expected, '(B) Deep equal test');
 	
 	// (test_fail) Fail a test
-	t.fail('(MAIN) test fail');
+	// t.fail('(MAIN) test fail');
 	
 	t.end();
 });
