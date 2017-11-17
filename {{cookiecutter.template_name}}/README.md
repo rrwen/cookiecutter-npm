@@ -140,11 +140,13 @@ git push
 
 1. Update the version in `package.json`
 2. Run tests and check for OK status
-3. Login to npm
-4. Publish to npm
+3. Generate documentation
+4. Login to npm
+5. Publish to npm
 
 ```
 npm test
+npm run docs
 npm login
 npm publish
 ```
