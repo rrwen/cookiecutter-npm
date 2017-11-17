@@ -28,6 +28,7 @@ pip install cookiecutter
 cookiecutter gh:rrwen/cookiecutter-npm
 cd <template_name>
 npm update --dev
+npm run docs
 ```
 
 See [Implementation](#implementation) for more details.
