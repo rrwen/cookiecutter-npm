@@ -3,6 +3,8 @@
 {{cookiecutter.author}}  
 {{cookiecutter.email}}  
 
+* [Documentation](https://{{cookiecutter.github_user}}.github.io/{{cookiecutter.template_name}})
+
 {{cookiecutter.template_description}}
 
 [![npm version](https://badge.fury.io/js/{{cookiecutter.template_name}}.svg)](https://badge.fury.io/js/{{cookiecutter.template_name}})
