@@ -116,5 +116,5 @@ File | Description
 **.travis.yml** | A [.travis.yml](https://docs.travis-ci.com/user/customizing-the-build/) file for automatic builds and tests
 **LICENSE** | MIT [license file](https://help.github.com/articles/licensing-a-repository/) automatically created from github
 **README.md** | A readme [Markdown](https://daringfireball.net/projects/markdown/) file with header, install, usage, and developer notes sections
-**package.json** | The [npm package.json](https://docs.npmjs.com/files/package.json) specifications with [tape](https://www.npmjs.com/package/tape), [moment](https://www.npmjs.com/package/moment), [istanbul](https://www.npmjs.com/package/istanbul), and [coveralls](https://www.npmjs.com/package/coveralls) developer dependencies
+**package.json** | The [npm package.json](https://docs.npmjs.com/files/package.json) specifications with [tape](https://www.npmjs.com/package/tape), [moment](https://www.npmjs.com/package/moment), [istanbul](https://www.npmjs.com/package/istanbul), [coveralls](https://www.npmjs.com/package/coveralls), and [documentation](https://www.npmjs.com/package/documentation) developer dependencies
 **index.js** | The main entry file for the npm package with an exported function consuming an `options` object

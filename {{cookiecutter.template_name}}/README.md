@@ -114,6 +114,16 @@ npm install
 npm test
 ```
 
+### Documentation
+
+Use [documentationjs](https://www.npmjs.com/package/documentation) to generate html documentation in the `docs` folder:
+
+```
+npm run docs
+```
+
+See [JSDoc style](http://usejsdoc.org/) for formatting syntax.
+
 ### Upload to Github
 
 1. Ensure [git](https://git-scm.com/) is installed
