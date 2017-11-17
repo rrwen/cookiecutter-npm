@@ -13,4 +13,5 @@ script:
   - npm uninstall lodash --save
   - npm install lodash --save-dev
   - npm uninstall lodash --save-dev
+  - npm run docs
   - npm test

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
 	"coverage": "istanbul cover node_modules/tape/bin/tape tests/test.js && cat ./coverage/lcov.info | coveralls",
+	"docs": "documentation build index.js -f html -o docs",
 	"istanbul": "istanbul cover node_modules/tape/bin/tape tests/test.js",
 	"test": "node ./tests/test.js"
   },
@@ -23,6 +24,7 @@
   "homepage": "{{cookiecutter.github_url}}#readme",
   "devDependencies": {
     "coveralls": "^3.0.0",
+	"documentation": "^5.3.3",
     "istanbul": "^0.4.5",
     "moment": "^2.19.1",
     "tape": "^4.8.0"
