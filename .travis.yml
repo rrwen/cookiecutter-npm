@@ -8,10 +8,10 @@ install:
 script:
   - cookiecutter --no-input gh:rrwen/cookiecutter-npm
   - cd template_name
-  - npm update --dev
   - npm install lodash --save
   - npm uninstall lodash --save
   - npm install lodash --save-dev
   - npm uninstall lodash --save-dev
+  - npm update --dev
   - npm run docs
   - npm test
