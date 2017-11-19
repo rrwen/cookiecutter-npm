@@ -3,8 +3,6 @@
 
 /**
  * Description.
- * 
- * * {@link {{cookiecutter.github_url}} Github Repository}
  *
  * @module {{cookiecutter.template_name}}
  * @param {Object} [options={}] parameter description.
