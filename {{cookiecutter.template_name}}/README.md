@@ -8,7 +8,7 @@
 {{cookiecutter.template_description}}
 
 [![npm version](https://badge.fury.io/js/{{cookiecutter.template_name}}.svg)](https://badge.fury.io/js/{{cookiecutter.template_name}})
-[![Build Status](https://travis-ci.org/rrwen/{{cookiecutter.github_short}}.svg?branch=master)](https://travis-ci.org/{{cookiecutter.github_short}})
+[![Build Status](https://travis-ci.org/{{cookiecutter.github_short}}.svg?branch=master)](https://travis-ci.org/{{cookiecutter.github_short}})
 [![Coverage Status](https://coveralls.io/repos/github/{{cookiecutter.github_short}}/badge.svg?branch=master)](https://coveralls.io/github/{{cookiecutter.github_short}}?branch=master)
 [![npm](https://img.shields.io/npm/dt/{{cookiecutter.template_name}}.svg)](https://www.npmjs.com/package/{{cookiecutter.template_name}})
 [![GitHub license](https://img.shields.io/github/license/{{cookiecutter.github_short}}.svg)](https://github.com/{{cookiecutter.github_short}}/blob/master/LICENSE)
