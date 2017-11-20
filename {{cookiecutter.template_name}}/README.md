@@ -33,6 +33,8 @@ An example usage of {{cookiecutter.template_name}}:
 var {{cookiecutter.template_name.replace('-', '').replace(' ', '')}} = require('{{cookiecutter.template_name}}');
 ```
 
+See [Documentation](https://{{cookiecutter.github_user}}.github.io/{{cookiecutter.template_name}}) for more details.
+
 ## Contributions
 
 ### Report Contributions
