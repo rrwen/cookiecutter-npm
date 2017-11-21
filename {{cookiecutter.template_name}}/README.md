@@ -111,7 +111,7 @@ npm install
 2. Enter into folder `cd {{cookiecutter.template_name}}`
 3. Ensure [devDependencies](https://docs.npmjs.com/files/package.json#devdependencies) are installed and available
 4. Run tests
-5. Results are saved to `./tests/log` with each file corresponding to a version tested
+5. Results are saved to [tests/log](tests/log) with each file corresponding to a version tested
 
 ```
 npm install
