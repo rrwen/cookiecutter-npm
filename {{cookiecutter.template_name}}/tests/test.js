@@ -20,7 +20,7 @@ for (var k in json.devDependencies) {
 
 // (test_log) Pipe tests to file and output
 if (!fs.existsSync('./tests/log')){
-    fs.mkdirSync('./tests/log');
+	fs.mkdirSync('./tests/log');
 }
 var testFile = './tests/log/test_' + json.version.split('.').join('_') + '.txt';
 test.createStream().pipe(fs.createWriteStream(testFile));
