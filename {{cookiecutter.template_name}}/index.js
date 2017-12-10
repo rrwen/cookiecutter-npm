@@ -9,7 +9,7 @@
  * @returns {Object} return description.
  *
  * @example
- * var {{cookiecutter.template_name.replace('-', '').replace(' ', '')}} = require('../index.js');
+ * var {{cookiecutter.template_name.replace('-', '').replace(' ', '')}} = require('{{cookiecutter.template_name}}');
  */
 module.exports = options => {
 	options = options || {};
