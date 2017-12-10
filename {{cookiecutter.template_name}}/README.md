@@ -70,11 +70,11 @@ The description is a short summary of the changes made such as improved speeds o
 
 The changes are a list of general edits made to the files and their respective components.
 * `file_path1`:
-    * `function_module_etc`: changed loop to map
-    * `function_module_etc`: changed variable value
+	* `function_module_etc`: changed loop to map
+	* `function_module_etc`: changed variable value
 * `file_path2`:
-    * `function_module_etc`: changed loop to map
-    * `function_module_etc`: changed variable value
+	* `function_module_etc`: changed loop to map
+	* `function_module_etc`: changed variable value
 
 ## Notes
 
