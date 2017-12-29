@@ -29,7 +29,7 @@ For the latest developer version, see [Developer Install](#developer-install).
 
 An example usage of {{cookiecutter.template_name}}:
 
-```
+```javascript
 var {{cookiecutter.template_name.replace('-', '').replace(' ', '')}} = require('{{cookiecutter.template_name}}');
 ```
 
@@ -157,7 +157,14 @@ npm publish
 
 ### Implementation
 
-A description of the overall implementation of {{cookiecutter.template_name}}.
+The module [{{cookiecutter.template_name}}](https://www.npmjs.com/package/{{cookiecutter.template_name}}) uses the following npm packages for its implementation:
+
+npm | Package
+--- | ---
+component | description
+component | description
+component | description
+component | description
 
 ```
 component   <-- detail
