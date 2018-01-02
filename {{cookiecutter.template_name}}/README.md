@@ -159,7 +159,7 @@ npm publish
 
 The module [{{cookiecutter.template_name}}](https://www.npmjs.com/package/{{cookiecutter.template_name}}) uses the following npm packages for its implementation:
 
-npm | Package
+npm | Purpose
 --- | ---
 component | description
 component | description
