@@ -36,53 +36,13 @@ var {{cookiecutter.template_name.replace('-', '').replace(' ', '')}} = require('
 
 See [Documentation](https://{{cookiecutter.github_user}}.github.io/{{cookiecutter.template_name}}) for more details.
 
+
 ## Contributions
 
-### Report Contributions
+1. Reports for issues and suggestions can be made using the [issue submission]({{cookiecutter.github_url}}/issues) interface.
+2. Code contributions are submitted via [pull requests]({{cookiecutter.github_url}}/pulls)
 
-Reports for issues and suggestions can be made using the [issue submission]({{cookiecutter.github_url}}/issues) interface.
-
-When possible, ensure that your submission is:
-
-* **Descriptive**: has informative title, explanations, and screenshots
-* **Specific**: has details of environment (such as operating system and hardware) and software used
-* **Reproducible**: has steps, code, and examples to reproduce the issue
-
-### Code Contributions
-
-Code contributions are submitted via [pull requests](https://help.github.com/articles/about-pull-requests/):
-
-1. Ensure that you pass the [Tests](#tests)
-2. Create a new [pull request]({{cookiecutter.github_url}}/pulls)
-3. Provide an explanation of the changes
-
-A template of the code contribution explanation is provided below:
-
-```
-## Purpose
-
-The purpose can mention goals that include fixes to bugs, addition of features, and other improvements, etc.
-
-## Description
-
-The description is a short summary of the changes made such as improved speeds or features, and implementation details.
-
-## Changes
-
-The changes are a list of general edits made to the files and their respective components.
-* `file_path1`:
-	* `function_module_etc`: changed loop to map
-	* `function_module_etc`: changed variable value
-* `file_path2`:
-	* `function_module_etc`: changed loop to map
-	* `function_module_etc`: changed variable value
-
-## Notes
-
-The notes provide any additional text that do not fit into the above sections.
-```
-
-For more information, see [Developer Install](#developer-install) and [Implementation](#implementation).
+See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 
 ## Developer Notes
 
